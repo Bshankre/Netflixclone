@@ -1,0 +1,118 @@
+@media only screen and (max-width:1470px){
+    body{
+        background-color: rgb(102, 188, 159);
+    }
+    .member .mgame{
+        height:40vh;
+        width:75vw;
+        padding: 12px 15px;
+    }
+    .mgame .card img{
+        height: 300px;
+        width:270px;
+      }
+}
+
+@media only screen and  (max-width:1230px){
+    body{
+        background-color: blue;
+    }
+    .container nav{
+        gap: 580px;
+    }
+    .member{
+        margin: 0px 120px ;
+    }
+    .member .mgame{
+        height:40vh;
+        width:75vw;
+        padding: 12px 15px;
+    }
+    .mgame .mgame-cont h1{
+        font-weight: 700;
+      }
+    .mgame .card img{
+        height: 299px;
+        width:240px;
+      }
+      .col-lg-3{
+        width:31vw;
+        height: 36vh;
+      }
+      .content .large{
+        font-size: 45px;
+        font-weight: 700;
+      }
+      .foot-cont .emailbox .sign{
+        width:12rem;
+        font-size: 20px;
+        font-weight: 600;
+        padding:3px;
+      }
+      .ques ul li{
+      width:69vw;
+      }
+}
+@media only screen and (max-width:1030px){
+    body{
+        background-color: blueviolet;
+        margin:0;
+        padding:0;
+    }
+    .container nav{
+        gap: 500px;
+    }
+    .member{
+        font-size: 17px;
+    }
+    .member .mgame{
+        height:39vh;
+        width:77vw;
+        padding: 12px 15px;
+    }
+    .mgame .card img{
+        height: 294px;
+        width:200px;
+      }
+   .foot-cont .email .emailbox .sign{
+        width:15rem;
+        font-size: 20px;
+        font-weight: 600;
+        padding:3px;
+      }
+      .foot-cont{
+        padding: 0px 0px; 
+      }
+      .center-con{
+        display:flex;
+        flex-direction: column;
+    }
+    .col-lg-3{
+        width:78vw;
+        height: 20vh;
+    }
+}
+@media only screen and (max-width:900px){
+    body{
+        margin:0;
+        padding:0;
+        background-color: brown;
+        flex-wrap: wrap;
+    }
+    .default-ltr-cache-1f97ztc{
+        margin: 0;
+        display: flex;
+        width: 100vw;
+        
+        /* height: 100%; */
+    }
+
+    .center-con{
+        display:flex;
+        flex-direction: column;
+    }
+    .col-lg-3{
+        width:78vw;
+        height: 20vh;
+    }
+}

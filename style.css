@@ -1,0 +1,373 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;;
+}
+.container{
+    background-image: url("asstets\\images\\bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width:100%;
+    position: relative;
+}
+.container nav{
+    display: flex;
+    gap: 700px;
+    align-items: center;
+    justify-content: center;
+   position: relative;
+   z-index: 7;
+}
+.container .box{
+    height: 90vh;
+    width: 100%;
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    
+}
+.default-ltr-cache-1f97ztc{
+  display: flex;
+  position: absolute;
+  z-index: 10;
+  height:70px;
+  width: 100%;
+  background-clip: padding-box;
+  align-items: center;
+  top: 81vh;
+  background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+  border-top: solid 0.25rem  rgb(154, 4, 89);
+  /* border-top-color: 5px solid purple; */
+  border-top-left-radius: 50% 100%  ;
+  border-top-right-radius: 50% 100%;
+  /* border-top:solid 5px linear-gradient(to right, rgba(112, 8, 105, 0.615),rgb(38, 9, 84),white )  ; */
+}
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color:transparent;
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .container nav .dropbtn i{
+     padding-left: 8px;
+     align-items: center;
+  }
+  .container .dropdown .sign{
+    background-color: red;
+    border: 0px;
+    margin: 5px;
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+  }
+
+  /* content  */
+  .container .content{
+    position: relative;
+    display: flex;
+    margin:50px 50px;
+    padding: 85px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: white;
+    z-index: 10;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .content .large{
+    font-size: 50px;
+    font-weight: 800;
+  }
+
+ .content .email{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    margin:15px;
+    padding:5px;
+    font-family: 400;
+    font-size: 15px;
+  }
+  .emailbox{
+    /* margin:5px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #email{
+    padding:8px;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  input[type="email"] {
+    width:370px;
+    height: 35px;
+    background-color:black;
+    opacity:0.9;
+    border-radius: 7px;
+    color: #f1f1f1;
+    transition: width 0.4s ease-in-out;
+    display: -webkit-inline-box;
+    letter-spacing: normal;
+    fill:black;
+
+}
+  input[type=email]:focus{
+   border:3px solid white;
+   line-height: 100%;
+   position: relative;
+   fill: currentcolor;
+  }
+  input[type=email]:hover{
+    border: 1px solid red;
+  }
+  .emailbox .sign{
+    background-color: red;
+    color: white;
+    height: 3.1rem;
+    width: 9.9rem;
+    padding:8px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    margin-left:  10px;
+    overflow: visible;
+  }
+  .member{
+    color:white;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center;  */
+    margin: 0px 150px ;
+  }
+  .mgame{
+    position: relative;
+    height: 45vh;
+    width: 78vw;
+    background: linear-gradient(to right,rgba(95, 9, 37, 0.692) 20%,rgb(66, 9, 34)  40%, rgb(68, 5, 33) 50%,rgb(40, 3, 32) 70% );
+    padding: 15px 20px;
+    border-radius: 25px;
+  }
+  .mgame h1{
+    padding-top: 50px;
+  }
+  .mgame-cont{
+    padding-left: 15px;
+    width: 36vw;
+  }
+  .mgame .mgame-cont h1{
+    font-weight: 800;
+  }
+ .sn{
+    font-weight: 500;
+    color:rgb(174, 168, 168);
+  }
+ .mgame .card{
+    position: absolute;
+    z-index: 7;
+    opacity: 0.8;
+    bottom: 0;
+    right: 0;
+  }
+  .mgame .card img{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 361px;
+    width:280px;
+  }
+ .center-con{
+  width: 81vw;
+  display: flex;
+  /* padding: 0px 15px ; */
+  justify-content: space-around;
+  font-size: 15px;
+  gap:12px;
+  /* border: 2px solid red; */
+ }
+ .col-lg-3{
+  position: relative;
+  width:32vw;
+  height: 38vh;
+  /* border: 2px solid blue; */
+  border-radius: 22px;
+  padding:0px 8px;
+  font-weight: 500;
+  z-index: 2;
+  color:rgb(174, 168, 168);
+  background:linear-gradient(to bottom,rgb(16, 3, 56),rgb(7, 1, 29)  40%, rgb(25, 4, 45) 50%,rgb(42, 3, 3) 100% );
+ }
+ .col-lg-3 h2{
+  color:white;
+ }
+ .tel{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+ }
+ .down{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+ }
+ .watch{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+ }
+ .prof{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+ }
+ .freq{
+  position: relative;
+  padding: 0px;
+  height: 78vh;
+  width:78vw
+ }
+ .ques{
+  position: absolute;
+  margin: 0;
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+ }
+ .ques ul{
+  margin: 0;
+  padding: 0;
+ }
+ .ques ul li{
+    font-weight: 600;
+  /* padding:0px 0px  0px 20px; */
+  background-color: rgb(43, 41, 41);
+  width:54vw;
+  height: 9.5vh;
+  list-style-type: none;
+  margin: 10px 0px;
+ }
+.ques li .dd{
+  display: flex;
+  align-items:center;
+  justify-content: flex-start;
+  background-color: rgb(52, 49, 49);
+  padding:0px 0px  0px 20px;
+  background-color: rgb(43, 41, 41);
+  font-size: 1.5rem;
+  color: white;
+  width:54vw;
+  height: 9.5vh;
+    /* padding: 5px 10px; */
+    /* font-size: 16px; */
+  border: 0px solid white;
+    /* border-radius: 5px; */
+  cursor: pointer;
+  position: relative;
+}
+.ques .dropdown .dropdown-content a:hover {
+  background-color: rgb(43, 41, 41);
+  color: white;
+ }
+.foot-cont{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  margin-top: 20px;
+}
+.foot-cont .emailbox{
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  margin: 15px 0px 5px 0px;
+}
+.foot-cont .emailbox input[type="email"] {
+  width:700px;
+  height: 35px;
+  background-color:black;
+  opacity:0.9;
+  border-radius: 7px;
+  color: #f1f1f1;
+  transition: width 0.4s ease-in-out;
+  display: -webkit-inline-box;
+  letter-spacing: normal;
+  fill:black;
+}
+.foot-cont .emailbox .sign{
+  height: 3.4rem;
+    width: 11rem;
+    font-weight: 900;
+}
+.foot-cont .hd{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.f-cont1 li{
+  list-style-type: none;
+  margin: 10px;
+}
+.f-cont1 .sn{
+   font-weight: 400;
+   font-size: 1rem;
+}
+.f-cont{
+  display: flex;
+  flex-direction: row;
+  gap: 55px;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  gap: 50px;
+}
